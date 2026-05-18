@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Justine's Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo"><a href="index.html" style="text-decoration:none; color:inherit;">My Portfolio</a></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="project.html">Projects</a></li>
+    <li><a href="hobbies.html">Hobbies</a></li>
+    <li><a href="education.html">Education</a></li>
+    <li><a href="awards.html">Awards</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="page active" style="display:block;">
+  <div class="section">
+    <div class="eyebrow">Visual Archive</div>
+    <h2 class="page-title">My <em>Gallery</em></h2>
+    <div class="divider"></div>
+    <p class="lead" style="margin-bottom:3rem;">A curated collection of my artwork, creative outputs, and visual projects.</p>
+
+    <div class="gallery-grid">
+
+        <div class="gallery-item" onclick="openLightbox('gallery1.jfif', 'Title Here', 'Description here.')">
+            <img src="gallery1.jfif" alt="Title Here" style="width:100%; aspect-ratio:4/3; object-fit:cover;">
+            <div class="gallery-caption">
+            <div class="gallery-caption-title">Title Here</div>
+            <div class="gallery-caption-sub">Category</div>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('gallery2.jfif', 'Title Here', 'Description here.')">
+            <img src="gallery2.jfif" alt="Title Here" style="width:100%; aspect-ratio:4/3; object-fit:cover;">
+            <div class="gallery-caption">
+            <div class="gallery-caption-title">Title Here</div>
+            <div class="gallery-caption-sub">Category</div>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('gallery3.jfif', 'Title Here', 'Description here.')">
+            <img src="gallery3.jfif" alt="Title Here" style="width:100%; aspect-ratio:4/3; object-fit:cover;">
+            <div class="gallery-caption">
+            <div class="gallery-caption-title">Title Here</div>
+            <div class="gallery-caption-sub">Category</div>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('gallery4.jfif', 'Title Here', 'Description here.')">
+            <img src="gallery4.jfif" alt="Title Here" style="width:100%; aspect-ratio:4/3; object-fit:cover;">
+            <div class="gallery-caption">
+            <div class="gallery-caption-title">Title Here</div>
+            <div class="gallery-caption-sub">Category</div>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('gallery5.jfif', 'Title Here', 'Description here.')">
+            <img src="gallery5.jfif" alt="Title Here" style="width:100%; aspect-ratio:4/3; object-fit:cover;">
+            <div class="gallery-caption">
+            <div class="gallery-caption-title">Title Here</div>
+            <div class="gallery-caption-sub">Category</div>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('gallery6.jpg', 'Title Here', 'Description here.')">
+            <img src="gallery6.jpg" alt="Title Here" style="width:100%; aspect-ratio:4/3; object-fit:cover;">
+            <div class="gallery-caption">
+            <div class="gallery-caption-title">Title Here</div>
+            <div class="gallery-caption-sub">Category</div>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('gallery7.jfif', 'Title Here', 'Description here.')">
+            <img src="gallery7.jfif" alt="Title Here" style="width:100%; aspect-ratio:4/3; object-fit:cover;">
+            <div class="gallery-caption">
+            <div class="gallery-caption-title">Title Here</div>
+            <div class="gallery-caption-sub">Category</div>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('gallery8.jfif', 'Title Here', 'Description here.')">
+            <img src="gallery8.jfif" alt="Title Here" style="width:100%; aspect-ratio:4/3; object-fit:cover;">
+            <div class="gallery-caption">
+            <div class="gallery-caption-title">Title Here</div>
+            <div class="gallery-caption-sub">Category</div>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('gallery9.jfif', 'Title Here', 'Description here.')">
+            <img src="gallery9.jfif" alt="Title Here" style="width:100%; aspect-ratio:4/3; object-fit:cover;">
+            <div class="gallery-caption">
+            <div class="gallery-caption-title">Title Here</div>
+            <div class="gallery-caption-sub">Category</div>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('gallery10.jfif', 'Title Here', 'Description here.')">
+            <img src="gallery10.jfif" alt="Title Here" style="width:100%; aspect-ratio:4/3; object-fit:cover;">
+            <div class="gallery-caption">
+            <div class="gallery-caption-title">Title Here</div>
+            <div class="gallery-caption-sub">Category</div>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('gallery11.jfif', 'Title Here', 'Description here.')">
+            <img src="gallery11.jfif" alt="Title Here" style="width:100%; aspect-ratio:4/3; object-fit:cover;">
+            <div class="gallery-caption">
+            <div class="gallery-caption-title">Title Here</div>
+            <div class="gallery-caption-sub">Category</div>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('gallery12.jfif', 'Title Here', 'Description here.')">
+            <img src="gallery12.jfif" alt="Title Here" style="width:100%; aspect-ratio:4/3; object-fit:cover;">
+            <div class="gallery-caption">
+            <div class="gallery-caption-title">Title Here</div>
+            <div class="gallery-caption-sub">Category</div>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox('gallery13.jfif', 'Title Here', 'Description here.')">
+            <img src="gallery13.jpg" alt="Title Here" style="width:100%; aspect-ratio:4/3; object-fit:cover;">
+            <div class="gallery-caption">
+            <div class="gallery-caption-title">Title Here</div>
+            <div class="gallery-caption-sub">Category</div>
+            </div>
+        </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+  <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+  <div class="lightbox-inner">
+    <img id="lightboxImg" src="" alt="" style="width:100%; border-radius:12px; margin-bottom:1rem;">
+    <div class="lightbox-title" id="lightboxTitle"></div>
+    <p style="color:var(--text2); font-size:0.875rem;" id="lightboxDesc"></p>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-tagline">Arts · Music</div>
+    <div class="footer-socials">
+      <a href="#" aria-label="Facebook"><img src="fb.jpg" alt=""></a>
+      <a href="#" aria-label="Instagram"><img src="ig.jpg" alt=""></a>
+      <a href="#" aria-label="Email"><img src="email.jpg" alt=""></a>
+      <a href="#" aria-label="TikTok"><img src="tiktok.jpg" alt=""></a>
+    </div>
+    <div class="footer-bottom">
+      © 2026 Justine Bundalian
+      <span class="footer-dot">·</span>
+      San Pablo City, Laguna
+      <span class="footer-dot">·</span>
+      Open to opportunities
+    </div>
+  </div>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>

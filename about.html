@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Justine's Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo"><a href="index.html" style="text-decoration:none; color:inherit;">My Portfolio</a></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="project.html">Projects</a></li>
+    <li><a href="hobbies.html">Hobbies</a></li>
+    <li><a href="education.html">Education</a></li>
+    <li><a href="awards.html">Awards</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="page active" style="display:block;">
+  <div class="section">
+    <div class="about-layout">
+      <div class="about-aside">
+        <div class="about-img"><img src="me2.jfif" alt="Justine"></div>
+        <div class="info-rows">
+          <div class="info-row">
+            <span class="info-row-label">Name</span>
+            <span class="info-row-val">Justine Bundalian</span>
+          </div>
+          <div class="info-row">
+            <span class="info-row-label">Nen Type</span>
+            <span class="info-row-val">Enhancer</span>
+          </div>
+          <div class="info-row">
+            <span class="info-row-label">Location</span>
+            <span class="info-row-val">San Cristobal San Pablo City, Laguna</span>
+          </div>
+          <div class="info-row">
+            <span class="info-row-label">Specialty</span>
+            <span class="info-row-val">Arts</span>
+          </div>
+          <div class="info-row">
+            <span class="info-row-label">Status</span>
+            <span class="info-row-val" style="color:#7ec88a;">● Online</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-content">
+        <h2 class="page-title">About Me</h2>
+        <div class="divider"></div>
+        <p>I'm <strong>Justine</strong>, a person who finds comfort and inspiration in art, music, and creativity.</p>
+        <p>I spend a lot of my time drawing, exploring different ideas through art, and expressing myself creatively. Creating things has always been one of the ways I understand the world and show parts of who I am. Whether it's sketches, designs, or random late-night ideas, I enjoy turning imagination into something real.</p>
+        <p>Music is also a huge part of my everyday life. I listen to hip-hop and pop almost constantly — the energy, emotion, storytelling, and production inspire me in different ways. Some days it's music that keeps me motivated, other days it's just something that makes ordinary moments feel bigger and more meaningful.</p>
+        <p>I enjoy the mix of creativity and individuality that comes from both art and music. I like discovering new styles, new sounds, and new perspectives, and I'm always drawn to things that feel expressive and authentic.</p>
+        <div style="margin-top:2rem; display:flex; gap:1rem; flex-wrap:wrap;">
+          <a href="skills.html" class="btn">Explore My Skills</a>
+          <a href="resume.html" class="btn btn-outline">View Resume</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-tagline">Arts · Music</div>
+    <div class="footer-socials">
+      <a href="#" aria-label="Facebook"><img src="fb.jpg" alt=""></a>
+      <a href="#" aria-label="Instagram"><img src="ig.jpg" alt=""></a>
+      <a href="#" aria-label="Email"><img src="email.jpg" alt=""></a>
+      <a href="#" aria-label="TikTok"><img src="tiktok.jpg" alt=""></a>
+    </div>
+    <div class="footer-bottom">
+      © 2026 Justine Bundalian
+      <span class="footer-dot">·</span>
+      San Pablo City, Laguna
+      <span class="footer-dot">·</span>
+      Open to opportunities
+    </div>
+  </div>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>

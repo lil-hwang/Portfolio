@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Justine's Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo"><a href="index.html" style="text-decoration:none; color:inherit;">My Portfolio</a></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="project.html">Projects</a></li>
+    <li><a href="hobbies.html">Hobbies</a></li>
+    <li><a href="education.html">Education</a></li>
+    <li><a href="awards.html">Awards</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="page active" style="display:block;">
+  <div class="section">
+    <div class="eyebrow">Get In Touch</div>
+    <h2 class="page-title">Let's <em>Connect</em></h2>
+    <div class="divider"></div>
+    <p class="lead" style="margin-bottom:3rem;">Have a project in mind, a question to ask, or just want to say hello? I'm always happy to hear from you.</p>
+
+    <div class="contact-layout">
+      <div>
+        <div class="contact-item">
+          <div class="contact-icon"><img src="email.jpg" alt=""></div>
+          <div>
+            <div class="contact-label">Email</div>
+            <div class="contact-val">justinebundalian76@gmail.com</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><img src="loc.jpg" alt=""></div>
+          <div>
+            <div class="contact-label">Location</div>
+            <div class="contact-val">San Cristobal San Pablo City, Laguna</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><img src="fb.jpg" alt=""></div>
+          <div>
+            <div class="contact-label">Facebook</div>
+            <div class="contact-val">facebook.com/Solopiensoenti.89</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><img src="ig.jpg" alt=""></div>
+          <div>
+            <div class="contact-label">Instagram</div>
+            <div class="contact-val">instagram.com/reignofnothing</div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="card">
+          <div id="contactForm">
+            <div class="form-group">
+              <label for="fname">Full Name</label>
+              <input type="text" id="fname" placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label for="femail">Email Address</label>
+              <input type="email" id="femail" placeholder="your@email.com">
+            </div>
+            <div class="form-group">
+              <label for="fsubject">Subject</label>
+              <input type="text" id="fsubject" placeholder="What's this about?">
+            </div>
+            <div class="form-group">
+              <label for="fmsg">Message</label>
+              <textarea id="fmsg" placeholder="Tell me what's on your mind..."></textarea>
+            </div>
+            <button class="btn" style="width:100%;" onclick="submitForm()">Send Message ↗</button>
+          </div>
+          <div class="form-success" id="formSuccess">
+            <div style="font-size:2rem; margin-bottom:0.75rem;">✨</div>
+            Message received! I'll get back to you soon.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-tagline">Arts · Music</div>
+    <div class="footer-socials">
+      <a href="#" aria-label="Facebook"><img src="fb.jpg" alt=""></a>
+      <a href="#" aria-label="Instagram"><img src="ig.jpg" alt=""></a>
+      <a href="#" aria-label="Email"><img src="email.jpg" alt=""></a>
+      <a href="#" aria-label="TikTok"><img src="tiktok.jpg" alt=""></a>
+    </div>
+    <div class="footer-bottom">
+      © 2026 Justine Bundalian
+      <span class="footer-dot">·</span>
+      San Pablo City, Laguna
+      <span class="footer-dot">·</span>
+      Open to opportunities
+    </div>
+  </div>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>

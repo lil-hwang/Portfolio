@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Justine's Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo"><a href="index.html" style="text-decoration:none; color:inherit;">My Portfolio</a></div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="project.html">Projects</a></li>
+    <li><a href="hobbies.html">Hobbies</a></li>
+    <li><a href="education.html">Education</a></li>
+    <li><a href="awards.html">Awards</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<div class="page active" style="display:block;">
+  <div class="section">
+    <div class="eyebrow">Selected Work</div>
+    <h2 class="page-title">Featured <em>Projects</em></h2>
+    <div class="divider"></div>
+    <p class="lead" style="margin-bottom:3rem;">A selection of collaborations, tools, and explorations that showcase the breadth of what I can do.</p>
+
+    <div class="grid-2">
+      <div class="project-card">
+        <div class="project-thumb">
+          <div class="project-thumb-num">01</div>
+          <div class="project-icon"><img src="" alt=""></div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span class="badge">Web</span></div>
+          <div class="project-title">FindIt</div>
+          <p class="project-desc">FindIt helps the university community report, find, and reclaim lost belongings quickly and securely.</p>
+          <a href="#" class="project-link">View Project→</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb">
+          <div class="project-thumb-num">02</div>
+          <div class="project-icon"><img src="" alt=""></div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span class="badge">Education</span></div>
+          <div class="project-title">Math</div>
+          <p class="project-desc">A system for helping students and researchers structure, draft, and refine academic essays — offering real-time feedback on argument quality, evidence use, and stylistic clarity.</p>
+          <a href="#" class="project-link">View Demo →</a>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb">
+          <div class="project-thumb-num">03</div>
+          <div class="project-icon"><img src="" alt=""></div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span class="badge">Arts</span></div>
+          <div class="project-title">Sketch</div>
+          <p class="project-desc">An automated code review pipeline that identifies bugs, suggests optimizations, and explains code logic in plain language — bridging the gap between experienced and novice developers.</p>
+          <a href="#" class="project-link">View on GitHub →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-tagline">Arts · Music</div>
+    <div class="footer-socials">
+      <a href="#" aria-label="Facebook"><img src="fb.jpg" alt=""></a>
+      <a href="#" aria-label="Instagram"><img src="ig.jpg" alt=""></a>
+      <a href="#" aria-label="Email"><img src="email.jpg" alt=""></a>
+      <a href="#" aria-label="TikTok"><img src="tiktok.jpg" alt=""></a>
+    </div>
+    <div class="footer-bottom">
+      © 2026 Justine Bundalian
+      <span class="footer-dot">·</span>
+      San Pablo City, Laguna
+      <span class="footer-dot">·</span>
+      Open to opportunities
+    </div>
+  </div>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
