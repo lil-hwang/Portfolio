@@ -470,6 +470,16 @@
 
   .project-icon { font-size: 2.5rem; position: relative; }
 
+  .project-thumb-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+  }
+
   .project-body { padding: 1.5rem; }
 
   .project-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.75rem; }
