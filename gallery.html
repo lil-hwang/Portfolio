@@ -144,13 +144,12 @@
   </div>
 </div>
 
-<!-- Lightbox -->
-<div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
-  <button class="lightbox-close" onclick="closeLightbox()">✕</button>
-  <div class="lightbox-inner">
-    <img id="lightboxImg" src="" alt="" style="width:100%; border-radius:12px; margin-bottom:1rem;">
-    <div class="lightbox-title" id="lightboxTitle"></div>
-    <p style="color:var(--text2); font-size:0.875rem;" id="lightboxDesc"></p>
+<div id="lightbox" onclick="this.classList.remove('open'); document.body.style.overflow='';">
+  <div class="lightbox-content" onclick="event.stopPropagation()">
+    <img id="lightboxImg" src="" alt="">
+    <div id="lightboxTitle"></div>
+    <div id="lightboxDesc"></div>
+    <button onclick="document.getElementById('lightbox').classList.remove('open'); document.body.style.overflow='';">✕</button>
   </div>
 </div>
 
