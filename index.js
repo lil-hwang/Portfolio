@@ -26,7 +26,6 @@ function animateBars() {
 // ─── LIGHTBOX ───
 function openLightbox(src, title, desc) {
   document.getElementById('lightboxImg').src = src;
-  document.getElementById('lightboxImg').alt = title;
   document.getElementById('lightboxTitle').textContent = title;
   document.getElementById('lightboxDesc').textContent = desc;
   document.getElementById('lightbox').classList.add('open');
